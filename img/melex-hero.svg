@@ -1,0 +1,36 @@
+<svg viewBox="0 0 520 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Melex - elektryczny pojazd taxi">
+  <defs>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e9eef0"/>
+    </linearGradient>
+    <linearGradient id="roof" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#dfe6e8"/>
+    </linearGradient>
+    <radialGradient id="wheel" cx="0.4" cy="0.4" r="0.7">
+      <stop offset="0" stop-color="#4a4a55"/>
+      <stop offset="1" stop-color="#1f1f27"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="260" cy="300" rx="210" ry="22" fill="#2b6b4f" opacity="0.14"/>
+  <rect x="118" y="70" width="12" height="120" rx="5" fill="#cfd6d8"/>
+  <rect x="258" y="70" width="12" height="120" rx="5" fill="#cfd6d8"/>
+  <rect x="392" y="70" width="12" height="120" rx="5" fill="#cfd6d8"/>
+  <rect x="92" y="48" width="336" height="34" rx="16" fill="url(#roof)"/>
+  <rect x="92" y="52" width="336" height="10" rx="5" fill="#2e8b57"/>
+  <rect x="222" y="30" width="76" height="26" rx="6" fill="#ffd400" stroke="#1f1f27" stroke-width="2"/>
+  <text x="260" y="49" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="17" fill="#1f1f27">TAXI</text>
+  <rect x="150" y="150" width="80" height="26" rx="8" fill="#2e8b57"/>
+  <rect x="290" y="150" width="80" height="26" rx="8" fill="#2e8b57"/>
+  <path d="M70 196 Q70 168 100 168 L300 168 Q322 168 332 150 L360 150 Q388 150 410 168 L452 178 Q470 184 470 208 L470 236 Q470 248 458 248 L82 248 Q70 248 70 236 Z" fill="url(#body)"/>
+  <rect x="74" y="214" width="392" height="14" rx="6" fill="#2e8b57"/>
+  <path d="M70 196 Q70 168 100 168 L300 168 Q322 168 332 150 L360 150 Q388 150 410 168 L452 178 Q470 184 470 208 L70 208 Z" fill="#ffffff" opacity="0.35"/>
+  <circle cx="452" cy="200" r="9" fill="#fff4c4" stroke="#cfd6d8" stroke-width="2"/>
+  <circle cx="150" cy="252" r="38" fill="url(#wheel)"/>
+  <circle cx="150" cy="252" r="16" fill="#cfd6d8"/>
+  <circle cx="150" cy="252" r="6" fill="#2e8b57"/>
+  <circle cx="392" cy="252" r="38" fill="url(#wheel)"/>
+  <circle cx="392" cy="252" r="16" fill="#cfd6d8"/>
+  <circle cx="392" cy="252" r="6" fill="#2e8b57"/>
+</svg>
